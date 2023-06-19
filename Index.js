@@ -47,6 +47,10 @@ app.use(
 
 // Request 
 
+app.get('/', (req, res) => {
+    res.send('Server is running...!!')
+})
+
 
 app.get('/donnees', (req, res) => {
   // Lire le fichier XML
